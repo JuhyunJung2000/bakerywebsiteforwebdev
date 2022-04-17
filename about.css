@@ -1,0 +1,113 @@
+.about-title{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height: 77vh;
+
+  position: relative;
+  border-bottom: 31px solid black;
+  border-top: 31px solid black;
+}
+
+.about-title .content{
+  text-align:center;
+  padding:1rem;
+}
+
+.about-title .content h1{
+  font-size: 6rem;
+  color: black;
+}
+.about-title .content h1 span{
+color:#871F78;
+}
+
+
+.about{
+  min-height: 65vh;
+
+}
+.about .row{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:0 2rem;
+  overflow-x: hidden;
+}
+.about .row .content{
+  padding: 1rem;
+}
+
+.about .row .content h4{
+  margin-bottom: 3%;
+  font-size:3.5rem;
+  color: #871F78;
+}
+.about .row .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.staff{
+  min-height:100vh;
+}
+.staff .box-container{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding: 2rem 0 0 3rem;
+  float:left;
+
+
+}
+.staff .box-container .box{
+  height:40rem;
+  width:28rem;
+  margin:2rem;
+  border:.5rem solid var(--green);
+  box-shadow:0 .0rem 1rem rgba(0,0,0,.3);
+  position:relative;
+  overflow: hidden;
+}
+.staff .box-container .box img{
+  height:100%;
+  width:100%;
+  object-fit:cover;
+}
+.staff .box-container .box .info{
+  position: absolute;
+  bottom:-6rem; left:0;
+  width 100%;
+  background:#fff;
+  border-top:.5rem solid var(--green);
+  text-align:center;
+}
+.staff .box-container .box:hover .info{
+  bottom:0rem;
+}
+.staff .box-container .box .info h3{
+  font-size:1.5rem;
+  color:#333;
+  padding:.5rem 0;
+
+}
+.staff .box-container .box .info span{
+  font-size: 1.5rem;
+  color:#666;
+
+}
+.staff .box-container .box .info .socials{
+  margin-top: 1rem;
+
+
+}
+.staff .box-container .box .info .share a{
+  font-size: 2rem;
+  float:left;
+  color:var(--green);
+}
+.staff .box-container .box .info .share a:hover{
+  color:#333;
+}

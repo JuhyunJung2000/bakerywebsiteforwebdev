@@ -1,0 +1,148 @@
+
+.menu-title{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height: 77vh;
+
+  position: relative;
+  border-bottom: 31px solid black;
+  border-top: 31px solid black;
+}
+
+.menu-title .content{
+  text-align:center;
+  padding:1rem;
+}
+
+.menu-title .content h1{
+  font-size: 6rem;
+  color: black;
+}
+.menu-title .content h1 span{
+color:#871F78;
+}
+.menu-title .content p{
+  font-size: 2rem;
+  color:black;
+  width:68rem;
+  padding:1rem 0;
+}
+.menu-table{
+  min-height: 60vh;
+}
+.menu-table th h4{
+
+  margin-left:270px;
+  padding-left: 190px;
+  padding-right: 190px;
+  margin-bottom: 3%;
+  font-size:3.5rem;
+  color: #871F78;
+  position: relative;
+}
+.items{
+  font-size: 3.5rem;
+  color:black;
+  padding:1rem 0 0 450px;
+
+}
+.price{
+  font-size: 3.5rem;
+  color:#666;
+  padding:1rem 0 0 469px;
+
+}
+tr{
+  padding-left: 100px;
+}
+.allergy{
+  min-height: 60vh;
+}
+
+.allergy .row{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:0 2rem;
+  overflow-x: hidden;
+}
+.allergy .row .content{
+  padding: 1rem;
+}
+
+.allergy .row .content h4{
+  margin-bottom: 3%;
+  font-size:3.5rem;
+  color: red;
+  padding-left: 20px;
+}
+.allergy .row .content p{
+  font-size: 2rem;
+  color:#666;
+  padding:1rem 0 0 25px;
+}
+.gallery{
+  min-height:50vh;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: var(--green);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
